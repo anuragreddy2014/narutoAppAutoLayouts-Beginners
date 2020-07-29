@@ -15,39 +15,75 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NARUTO ANIME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Is5-5x-zB0">
-                                <rect key="frame" x="26" y="94" width="362" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="50"/>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgeasst3" translatesAutoresizingMaskIntoConstraints="NO" id="INM-ej-wdP">
-                                <rect key="frame" x="41" y="162" width="312" height="134"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageasst4" translatesAutoresizingMaskIntoConstraints="NO" id="TzE-xn-CVr">
-                                <rect key="frame" x="26" y="304" width="342" height="117"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgeasst2" translatesAutoresizingMaskIntoConstraints="NO" id="S4P-hh-ush">
-                                <rect key="frame" x="20" y="433" width="344" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H7o-iE-9j8">
-                                <rect key="frame" x="106" y="792" width="213" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="GET STARTED !!">
-                                    <color key="titleColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imageasset1" translatesAutoresizingMaskIntoConstraints="NO" id="0SS-Gq-CtE">
-                                <rect key="frame" x="31" y="569" width="333" height="215"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bvy-a9-nTt">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8Jr-z1-jah">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="acQ-TA-Xgp">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NARUTO ANIME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lme-hT-cpu">
+                                                        <rect key="frame" x="72" y="87" width="270" height="64"/>
+                                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageasst4" translatesAutoresizingMaskIntoConstraints="NO" id="nXF-ET-thQ">
+                                                        <rect key="frame" x="45.5" y="179" width="323" height="183"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imgeasst2" translatesAutoresizingMaskIntoConstraints="NO" id="uaC-4h-Ps7">
+                                                        <rect key="frame" x="25.5" y="377" width="363" height="256"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageasst4" translatesAutoresizingMaskIntoConstraints="NO" id="nkf-NF-L4J">
+                                                        <rect key="frame" x="5.5" y="648" width="403" height="183"/>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="imageasset1" translatesAutoresizingMaskIntoConstraints="NO" id="KJ7-42-Vtj">
+                                                        <rect key="frame" x="0.0" y="846" width="414" height="360"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <constraints>
+                                                    <constraint firstItem="uaC-4h-Ps7" firstAttribute="leading" secondItem="acQ-TA-Xgp" secondAttribute="leading" constant="25.5" id="Fjn-AE-Kx5"/>
+                                                    <constraint firstAttribute="trailing" secondItem="nkf-NF-L4J" secondAttribute="trailing" constant="5.5" id="IXz-g4-UIv"/>
+                                                    <constraint firstAttribute="trailing" secondItem="nXF-ET-thQ" secondAttribute="trailing" constant="45.5" id="Qoc-Ub-egw"/>
+                                                    <constraint firstItem="nXF-ET-thQ" firstAttribute="centerX" secondItem="acQ-TA-Xgp" secondAttribute="centerX" id="S0e-ex-2OP"/>
+                                                    <constraint firstItem="KJ7-42-Vtj" firstAttribute="top" secondItem="nkf-NF-L4J" secondAttribute="bottom" constant="15" id="SwU-36-vkX"/>
+                                                    <constraint firstAttribute="trailing" secondItem="uaC-4h-Ps7" secondAttribute="trailing" constant="25.5" id="VBY-bg-Tv4"/>
+                                                    <constraint firstItem="nXF-ET-thQ" firstAttribute="top" secondItem="Lme-hT-cpu" secondAttribute="bottom" constant="28" id="Zgq-Qf-uub"/>
+                                                    <constraint firstItem="Lme-hT-cpu" firstAttribute="centerX" secondItem="acQ-TA-Xgp" secondAttribute="centerX" id="eOo-0x-pGq"/>
+                                                    <constraint firstItem="nkf-NF-L4J" firstAttribute="leading" secondItem="acQ-TA-Xgp" secondAttribute="leading" constant="5.5" id="fos-aU-jqw"/>
+                                                    <constraint firstItem="Lme-hT-cpu" firstAttribute="top" secondItem="acQ-TA-Xgp" secondAttribute="top" constant="87" id="mH9-jZ-hkb"/>
+                                                    <constraint firstItem="KJ7-42-Vtj" firstAttribute="leading" secondItem="acQ-TA-Xgp" secondAttribute="leading" id="n3j-c6-HMP"/>
+                                                    <constraint firstItem="nXF-ET-thQ" firstAttribute="leading" secondItem="acQ-TA-Xgp" secondAttribute="leading" constant="45.5" id="nzd-1o-BJB"/>
+                                                    <constraint firstAttribute="height" constant="1200" id="pPZ-U1-52V"/>
+                                                    <constraint firstAttribute="trailing" secondItem="KJ7-42-Vtj" secondAttribute="trailing" id="tj3-x2-Uon"/>
+                                                    <constraint firstItem="uaC-4h-Ps7" firstAttribute="top" secondItem="nXF-ET-thQ" secondAttribute="bottom" constant="15" id="uVv-zN-fpt"/>
+                                                    <constraint firstItem="nkf-NF-L4J" firstAttribute="top" secondItem="uaC-4h-Ps7" secondAttribute="bottom" constant="15" id="xga-5k-odd"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="8Jr-z1-jah" firstAttribute="width" secondItem="WP8-AB-Nsm" secondAttribute="width" id="58h-5Y-97G"/>
+                                    <constraint firstItem="8Jr-z1-jah" firstAttribute="leading" secondItem="L4L-w7-Ess" secondAttribute="leading" id="R9H-YX-j2B"/>
+                                    <constraint firstItem="8Jr-z1-jah" firstAttribute="bottom" secondItem="L4L-w7-Ess" secondAttribute="bottom" id="RNW-ZI-0kO"/>
+                                    <constraint firstItem="8Jr-z1-jah" firstAttribute="top" secondItem="L4L-w7-Ess" secondAttribute="top" id="TyY-1k-xNf"/>
+                                    <constraint firstItem="8Jr-z1-jah" firstAttribute="trailing" secondItem="L4L-w7-Ess" secondAttribute="trailing" id="m9g-cf-pqa"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="L4L-w7-Ess"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="WP8-AB-Nsm"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Bvy-a9-nTt" secondAttribute="bottom" id="aIm-uK-37O"/>
+                            <constraint firstItem="Bvy-a9-nTt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dC8-LC-31r"/>
+                            <constraint firstItem="Bvy-a9-nTt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="jc8-Gh-PdV"/>
+                            <constraint firstItem="Bvy-a9-nTt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="rLx-Yt-3Ix"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -60,6 +96,5 @@
         <image name="imageasset1" width="640" height="360"/>
         <image name="imageasst4" width="323" height="183"/>
         <image name="imgeasst2" width="341" height="256"/>
-        <image name="imgeasst3" width="640" height="360"/>
     </resources>
 </document>
